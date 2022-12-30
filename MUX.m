@@ -1,0 +1,3 @@
+function z=MUX(a,b,s0)
+z=ORFUNCTION(ANDFUNCTION(NOTFUNCTION(s0),a),ANDFUNCTION(s0,b));
+end
